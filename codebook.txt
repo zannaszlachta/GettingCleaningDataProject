@@ -11,6 +11,8 @@ Laying, Sitting, Standing, Walking, WalkingDownstairs, WalkingUpstairs
 
 Followed by the columns listed below, containing averages of the means and standard deviations of various 
 measurements collected with accelerometers and gyroscopes while the subjects were performing various activities.
+The measurements were renamed to make the names self-explanatory, the only abbreviation used is FFT, which stands
+for Fast Fourier Transform.
 
 TimeBodyAccelerationMeanX
 TimeBodyAccelerationMeanY
