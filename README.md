@@ -47,7 +47,8 @@ What the run_analysis.R script does:
  3. Step 2: Extracts only the measurements on the mean and standard deviation for each measurement 
  4. Step 3: Uses descriptive activity names to name the activities in the data set
  5. Step 4: Appropriately labels the data set with descriptive variable names
- 6. Step 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject
+ 6. Step 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This second data set is tidy and wide.
  7. Optionally, writes the final data set into a text file
+
 
 
