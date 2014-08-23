@@ -81,7 +81,7 @@ DataFullMeanStd[,2] <- gsub("6","Laying",DataFullMeanStd[,2])
 
 # Step 4: Use descriptive variable names
 
-names(DataFullMeanStd) <- gsub("\\(|\\)|-","",names(DataFullMeanStd))
+names(DataFullMeanStd) <- gsub("\\(|\\)|-|,","",names(DataFullMeanStd))
 names(DataFullMeanStd) <- gsub("BodyBody","Body",names(DataFullMeanStd))
 names(DataFullMeanStd) <- gsub("mean","Mean",names(DataFullMeanStd))
 names(DataFullMeanStd) <- gsub("std","StandardDeviation",names(DataFullMeanStd))
