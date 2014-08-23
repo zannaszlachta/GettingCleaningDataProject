@@ -46,8 +46,8 @@ What the run_analysis.R script does:
  2. Step 1: Merges the training and the test sets to create one data set
  3. Step 2: Extracts only the measurements on the mean and standard deviation for each measurement 
  4. Step 3: Uses descriptive activity names to name the activities in the data set
- 5. Step 4: Appropriately labels the data set with descriptive variable names
- 6. Step 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This second data set is tidy and wide.
+ 5. Step 4: Appropriately labels the data set with descriptive variable names. I removed any special characters that might cause problems (e.g., '(',')','-'), and replaced abbreviations with full names to remove any ambiguity. I kept abbreviation FFT (Fast Fourier Transform) to avoid overly long names. I used CamelCase to improve readability.
+ 6. Step 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This second data set is tidy and wide. Each row has values for a unique combination of subject and activity.
  7. Optionally, writes the final data set into a text file
 
 
