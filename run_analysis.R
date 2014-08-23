@@ -63,7 +63,7 @@ DataFull <- cbind(Subject,Activity,Data)
 
 # Step 2: Extract only the measurements on the mean and standard deviation
 
-DataFullMeanStd <- DataFull[,grep("Subject|Activity|mean|std",names(DataFull))]
+DataFullMeanStd <- DataFull[,grep("Subject|Activity|mean|std",names(DataFull),ignore.case=T)]
 
 
 
@@ -92,6 +92,8 @@ names(DataFullMeanStd) <- gsub("fBody","FFTBody",names(DataFullMeanStd))
 names(DataFullMeanStd) <- gsub("Acc","Acceleration",names(DataFullMeanStd))
 names(DataFullMeanStd) <- gsub("Gyro","Gyroscope",names(DataFullMeanStd))
 names(DataFullMeanStd) <- gsub("Mag","Magnitude",names(DataFullMeanStd))
+names(DataFullMeanStd) <- gsub("angle","Angle",names(DataFullMeanStd))
+names(DataFullMeanStd) <- gsub("gravity","Gravity",names(DataFullMeanStd))
 
 
 
